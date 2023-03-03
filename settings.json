@@ -1,0 +1,145 @@
+{
+    "terminal.integrated.gpuAcceleration": "on",
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "window.commandCenter": true,
+    "editor.stickyScroll.enabled": true,
+    "debug.console.closeOnEnd": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": {},
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "debug.console.fontSize": 11,
+    "[search-result]": {
+        "editor.lineNumbers": "on"
+    },
+    "editor.lineNumbers": "relative",
+    "vim.normalModeKeyBindings": [
+
+        {
+            "before":["<C-u>"], 
+            "after": ["<C-u>", "z","z"]
+        },
+        {
+            "before":["<C-d>"], 
+            "after": ["<C-d>", "z","z"]
+        },
+        {
+            "before": ["f", "f"],
+            "commands": [
+                "workbench.action.quickOpen",
+            ],
+            "silent": true
+        },
+        {
+            "before": ["<C-o>"],
+            "commands": ["workbench.action.navigateBack"],
+            "slient": true
+        },
+        {
+            "before": ["<C-i>"],
+            "commands": ["workbench.action.navigateForward"],
+            "slient": true
+        },
+        {
+            "before":["<leader>", "Y"], 
+            "after": ["\"", "+","Y"]
+        },
+        {
+            "before":["<leader>", "y"], 
+            "after": ["\"", "+","y"]
+        },
+        {
+            "before":["<leader>", "P"], 
+            "after": ["\"", "+","P"]
+        },
+        {
+            "before":["<leader>", "p"], 
+            "after": ["\"", "+","p"]
+        },
+        {
+            "before":["n"], 
+            "after": ["n","z","z","z","v"]
+        },
+        {
+            "before":["N"], 
+            "after": ["N","z","z","z","v"]
+        },
+        {
+            "before":["*"], 
+            "after": ["*","z","z","z","v"]
+        },
+        {
+            "before": ["<leader>", "s"], 
+            "after": [":","%","s","/","\\","<","<C-r>","<C-w>","\\",">","/","<C-r>","<C-w>","/","g","I","<Left>","<Left>","<Left>"]
+        },
+        {
+            "before": ["<C-h>"], 
+            "commands": ["workbench.action.previousEditor"], 
+        },
+        {
+            "before": ["<C-l>"], 
+            "commands": ["workbench.action.nextEditor"]
+        },
+        {
+            "before": ["<C-w>","v"], 
+            "commands": ["workbench.action.moveEditorToNextGroup"]
+        },
+        {
+            "before": ["<C-w>","<C-v>"], 
+            "commands": ["workbench.action.moveEditorToNextGroup"]
+        },
+        {
+            "before": ["<C-w>","b"], 
+            "commands": ["workbench.action.moveEditorToPreviousGroup"]
+        },
+        {
+            "before": ["<C-w>","<C-b"], 
+            "commands": ["workbench.action.moveEditorToPreviousGroup"]
+        },
+        {
+            "before": ["<C-t>"], 
+            "commands": ["workbench.action.terminal.focus"]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<ESC>"]
+        }
+    ],
+    "vim.camelCaseMotion.enable": true,
+    "vim.leader": " ",
+    "vim.visualModeKeyBindings": [
+        {
+            "before":["<leader>", "y"], 
+            "after": ["\"", "+","y"]
+        },
+        {
+            "before":["<leader>", "Y"], 
+            "after": ["\"", "+","Y"]
+        },
+        {
+            "before":["<leader>", "p"], 
+            "after": ["\"", "+","p"]
+        },
+        {
+            "before":["<leader>", "P"], 
+            "after": ["\"", "+","P"]
+        },
+        {
+            "before": ["K"],
+            "commands":[ "editor.action.moveLinesUpAction"],
+        },
+        {
+            "before": ["J"],
+            "commands":[ "editor.action.moveLinesDownAction"],
+        },
+    ],
+    "vim.commandLineModeKeyBindings": [],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.minimap.enabled": false
+}
