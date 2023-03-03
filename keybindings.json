@@ -6,11 +6,6 @@
         "command": "explorer.newFolder"
     },
     {
-        "key": "ctrl+x x",
-        "command": "oracleDBObjectExplorer.runCodeObjectFromFile",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+t",
         "command": "-workbench.action.showAllSymbols"
     },
